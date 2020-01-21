@@ -18,5 +18,4 @@ jobs:
         run: mvn clean install
 
       - name: "Run pitest"
-        run: mvn org.pitest:pitest-maven:mutationCoveragex
-
+        run: mvn org.pitest:pitest-maven:mutationCoverage
